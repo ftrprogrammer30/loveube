@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe4e1; /* light romantic background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #heartButton {
+    font-size: 50px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  #loveLetter {
+    overflow: hidden;
+    height: 0;
+    transition: height 2s ease;
+  }
+  
+  .paper {
+    background: #fdfcf7;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .paper h2 {
+    margin-top: 0;
+  }
+  
+  .hidden {
+    display: block;
+  }
